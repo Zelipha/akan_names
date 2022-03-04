@@ -1,1 +1,1 @@
-Akan names
+# Akan names
