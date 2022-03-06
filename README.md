@@ -27,4 +27,4 @@ You can provide feedback or raise any issues/ bugs through the following means: 
 ### License
 
 [License: MIT](https://github.com/Zelipha/akan_names/blob/main/LICENSE)
-Copyright (c) 2022
+Copyright (c) 2022 **Zelipha Wambui**
