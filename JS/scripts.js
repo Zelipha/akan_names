@@ -10,7 +10,6 @@ let genderButtons = document.getElementsByClassName("gender");
 genderButtons = Array.from(genderButtons);
 
 //get users date of birth and use the input to select the day of the week
-//get users gender and use it to get the akan name based on the day of the week
 calendar.addEventListener("change", function () {
   // get day of the week e.g thursday is 4
   weekday = new Date(calendar.value).getDay();
@@ -21,8 +20,14 @@ function akanName() {
   let selectedGenderButton = genderButtons.find((x) => x.checked);
   let gender = selectedGenderButton.value; // e.g "female"
 
-  let nameList = gender == "male" ? maleAkanNames : femaleAkanNames;
-  alert(`You were born on ${days[weekday]} and your akan name is ${nameList[weekday]}`);
+  //get users gender and use it to get the akan name based on the day of the week
+  let nameList = gender == "male" ? maleAkanNames : femaleAkanNames; // ternary operator
+
+  if (calendar.value == "") {
+    alert("Please input your birth date");
+  } else {
+    document.getElementById("h3").innerHTML = `You were born on ${days[weekday]} and your akan name is ${nameList[weekday]}`;
+  }
 }
 
 document.getElementById("btn").addEventListener("click", akanName);
