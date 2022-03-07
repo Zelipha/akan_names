@@ -13,13 +13,15 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 
 ## Known Bugs
 
+No known bugs although i will modify the output to render to the DOM instead of an alert
+
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-##### Link to Live Site:
+##### Link to Live Site: [here](https://zelipha.github.io/akan_names/)
 
 ### Support and contact details
 
