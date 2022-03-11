@@ -12,7 +12,10 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 ```
 git clone git@github.com:Zelipha/akan_names.git
 ```
-- Navigate to the root folder of the application `cd akan_names`
+- Navigate to the root folder of the application:
+```
+cd akan_names
+```
 
 ## Known Bugs
 
